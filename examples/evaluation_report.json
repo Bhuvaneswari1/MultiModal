@@ -1,0 +1,358 @@
+{
+  "mode": "demo",
+  "interpretation": "Fixture wiring only; not model quality",
+  "claims": 20,
+  "field_accuracy": 1.0,
+  "decision_accuracy": 1.0,
+  "route_accuracy": 1.0,
+  "damage_macro_f1": 1.0,
+  "recall_at_5": 1.0,
+  "retrieval_note": "Tiny two-page/product corpus makes recall@5 trivial; expand corpus for meaningful retrieval evaluation.",
+  "voice_scores": [
+    {
+      "language": "en",
+      "path": "voice_notes/voice_01.wav",
+      "hypothesis": "My router arrived with a cracked case. Order ORD-1001. Please help.",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "language": "en",
+      "path": "voice_notes/voice_02.wav",
+      "hypothesis": "The phone screen is broken. My order is ORD-1002. I need a replacement.",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "language": "te",
+      "path": "voice_notes/voice_03.wav",
+      "hypothesis": "నా రౌటర్ పగిలి వచ్చింది. ఆర్డర్ ORD-1003. దయచేసి సహాయం చేయండి.",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "language": "te",
+      "path": "voice_notes/voice_04.wav",
+      "hypothesis": "పెట్టె దెబ్బతింది. ఆర్డర్ ORD-1004. దయచేసి సహాయం చేయండి.",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "language": "hi",
+      "path": "voice_notes/voice_05.wav",
+      "hypothesis": "मेरा फोन टूटा हुआ आया है। ऑर्डर ORD-1005. कृपया मदद करें।",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "language": "hi",
+      "path": "voice_notes/voice_06.wav",
+      "hypothesis": "मेरे मॉनिटर की स्क्रीन टूटी है। ऑर्डर ORD-1006. मुझे मदद चाहिए।",
+      "wer": 0.0,
+      "cer": 0.0
+    }
+  ],
+  "details": [
+    {
+      "claim_id": "C001",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "cracked_case",
+        "severity": "medium",
+        "visible_serial": "SN-0001",
+        "confidence": 0.95
+      },
+      "proposed_decision": "approve",
+      "route": "automatic",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": false
+    },
+    {
+      "claim_id": "C002",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0002",
+        "confidence": 0.95
+      },
+      "proposed_decision": "approve",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C003",
+      "damage_prediction": {
+        "product": "monitor",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0003",
+        "confidence": 0.95
+      },
+      "proposed_decision": "approve",
+      "route": "automatic",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": false
+    },
+    {
+      "claim_id": "C004",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "dented_box",
+        "severity": "low",
+        "visible_serial": "SN-0004",
+        "confidence": 0.95
+      },
+      "proposed_decision": "reject",
+      "route": "automatic",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": false
+    },
+    {
+      "claim_id": "C005",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "none",
+        "severity": "low",
+        "visible_serial": "SN-0005",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C006",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "none",
+        "severity": "low",
+        "visible_serial": "SN-0006",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C007",
+      "damage_prediction": {
+        "product": "monitor",
+        "damage_type": "dented_box",
+        "severity": "low",
+        "visible_serial": "SN-0007",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C008",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "cracked_case",
+        "severity": "medium",
+        "visible_serial": null,
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C009",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0009",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C010",
+      "damage_prediction": {
+        "product": null,
+        "damage_type": "unknown",
+        "severity": "unknown",
+        "visible_serial": null,
+        "confidence": 0.2
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C011",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "cracked_case",
+        "severity": "medium",
+        "visible_serial": "SN-0001",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C012",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0002",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C013",
+      "damage_prediction": {
+        "product": "monitor",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0003",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C014",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "dented_box",
+        "severity": "low",
+        "visible_serial": "SN-0004",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C015",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "none",
+        "severity": "low",
+        "visible_serial": "SN-0005",
+        "confidence": 0.95
+      },
+      "proposed_decision": "reject",
+      "route": "automatic",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": false
+    },
+    {
+      "claim_id": "C016",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "none",
+        "severity": "low",
+        "visible_serial": "SN-0006",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C017",
+      "damage_prediction": {
+        "product": "monitor",
+        "damage_type": "dented_box",
+        "severity": "low",
+        "visible_serial": "SN-0007",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C018",
+      "damage_prediction": {
+        "product": "router",
+        "damage_type": "cracked_case",
+        "severity": "medium",
+        "visible_serial": null,
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C019",
+      "damage_prediction": {
+        "product": "phone",
+        "damage_type": "broken_screen",
+        "severity": "high",
+        "visible_serial": "SN-0009",
+        "confidence": 0.95
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    },
+    {
+      "claim_id": "C020",
+      "damage_prediction": {
+        "product": null,
+        "damage_type": "unknown",
+        "severity": "unknown",
+        "visible_serial": null,
+        "confidence": 0.2
+      },
+      "proposed_decision": "review",
+      "route": "human",
+      "decision_correct": true,
+      "route_correct": true,
+      "pending": true
+    }
+  ],
+  "judge_note": "Run python -m claims.judge separately in live mode for groundedness. CLIPScore requires the optional CLIP lab."
+}

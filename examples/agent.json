@@ -1,0 +1,67 @@
+{
+  "mode": "demo",
+  "result": {
+    "files": [
+      "<PROJECT_ROOT>/data/claim_photos/claim_01.png",
+      "<PROJECT_ROOT>/data/invoices/invoice_01.pdf",
+      "<PROJECT_ROOT>/data/voice_notes/voice_01.wav"
+    ],
+    "product": "router",
+    "amount": 2360,
+    "delivery_days": 2,
+    "observations": [
+      {
+        "kind": "photo",
+        "result": {
+          "product": "router",
+          "damage_type": "cracked_case",
+          "severity": "medium",
+          "visible_serial": "SN-0001",
+          "confidence": 0.95
+        }
+      },
+      {
+        "kind": "invoice",
+        "result": {
+          "invoice": {
+            "invoice_no": "INV-001",
+            "date": "2026-10-15",
+            "items": [
+              {
+                "description": "router",
+                "quantity": 1,
+                "unit_price": 2000.0
+              }
+            ],
+            "gst": 360.0,
+            "total": 2360.0
+          },
+          "totals_valid": true
+        }
+      },
+      {
+        "kind": "voice",
+        "result": {
+          "complaint": "My router arrived with a cracked case. Order ORD-1001. Please help.",
+          "order_id": "ORD-1001",
+          "sentiment": "negative"
+        }
+      }
+    ],
+    "warranty": {
+      "answer": "router warranty: cracked case and broken screen on delivery are covered within 7 days. Photo and invoice required. Dented box alone is not covered. Normal wear and misuse are excluded.",
+      "citations": [
+        {
+          "id": "router-p1",
+          "file": "manuals/router_manual.pdf",
+          "page": 1,
+          "figure": "Figure 1"
+        }
+      ]
+    },
+    "flags": [],
+    "decision": "approve",
+    "route": "automatic",
+    "reply": "Your fictional training claim is approved. This is a draft for support review; no refund has been issued. Sources: router-p1"
+  }
+}

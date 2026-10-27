@@ -1,0 +1,21 @@
+claim_id,product,photo,invoice,voice,video,amount,delivery_days,expected_damage_type,expected_severity,expected_decision,expected_route,query,relevant_page
+C001,router,claim_photos/claim_01.png,invoices/invoice_01.pdf,voice_notes/voice_01.wav,unboxing_videos/unboxing_01.mp4,2360.0,2,cracked_case,medium,approve,automatic,Is a cracked case covered within 7 days?,router-p1
+C002,phone,claim_photos/claim_02.png,invoices/invoice_02.pdf,voice_notes/voice_02.wav,,7080.0,2,broken_screen,high,approve,human,Is a cracked case covered within 7 days?,phone-p1
+C003,monitor,claim_photos/claim_03.png,invoices/invoice_03.pdf,voice_notes/voice_03.wav,,4720.0,2,broken_screen,high,approve,automatic,Is a cracked case covered within 7 days?,monitor-p1
+C004,router,claim_photos/claim_04.png,invoices/invoice_04.pdf,voice_notes/voice_04.wav,,2360.0,2,dented_box,low,reject,automatic,Is a cracked case covered within 7 days?,router-p1
+C005,phone,claim_photos/claim_05.png,invoices/invoice_05.pdf,voice_notes/voice_05.wav,unboxing_videos/unboxing_02.mp4,7080.0,10,none,low,review,human,Is a cracked case covered within 7 days?,phone-p1
+C006,monitor,claim_photos/claim_06.png,invoices/invoice_06.pdf,voice_notes/voice_06.wav,,4720.0,2,none,low,review,human,Is a cracked case covered within 7 days?,monitor-p1
+C007,router,claim_photos/claim_07.png,invoices/invoice_07.pdf,voice_notes/voice_01.wav,,2360.0,2,dented_box,low,review,human,Is a cracked case covered within 7 days?,router-p1
+C008,phone,claim_photos/claim_08.png,invoices/invoice_08.pdf,voice_notes/voice_02.wav,,7180.0,2,cracked_case,medium,review,human,Is a cracked case covered within 7 days?,phone-p1
+C009,router,claim_photos/claim_09.png,invoices/invoice_01.pdf,voice_notes/voice_03.wav,unboxing_videos/unboxing_03.mp4,2360.0,2,broken_screen,high,review,human,Is a cracked case covered within 7 days?,router-p1
+C010,phone,claim_photos/claim_10.png,invoices/invoice_02.pdf,voice_notes/voice_04.wav,,7080.0,2,unknown,unknown,review,human,Is a cracked case covered within 7 days?,phone-p1
+C011,monitor,claim_photos/claim_01.png,invoices/invoice_03.pdf,voice_notes/voice_05.wav,,4720.0,2,cracked_case,medium,review,human,Is a cracked case covered within 7 days?,monitor-p1
+C012,router,claim_photos/claim_02.png,invoices/invoice_04.pdf,voice_notes/voice_06.wav,,2360.0,2,broken_screen,high,review,human,Is a cracked case covered within 7 days?,router-p1
+C013,phone,claim_photos/claim_03.png,invoices/invoice_05.pdf,voice_notes/voice_01.wav,unboxing_videos/unboxing_01.mp4,7080.0,2,broken_screen,high,review,human,Is a cracked case covered within 7 days?,phone-p1
+C014,monitor,claim_photos/claim_04.png,invoices/invoice_06.pdf,voice_notes/voice_02.wav,,4720.0,2,dented_box,low,review,human,Is a cracked case covered within 7 days?,monitor-p1
+C015,router,claim_photos/claim_05.png,invoices/invoice_07.pdf,voice_notes/voice_03.wav,,2360.0,10,none,low,reject,automatic,Is a cracked case covered within 7 days?,router-p1
+C016,phone,claim_photos/claim_06.png,invoices/invoice_08.pdf,voice_notes/voice_04.wav,,7180.0,2,none,low,review,human,Is a cracked case covered within 7 days?,phone-p1
+C017,router,claim_photos/claim_07.png,invoices/invoice_01.pdf,voice_notes/voice_05.wav,unboxing_videos/unboxing_02.mp4,2360.0,2,dented_box,low,review,human,Is a cracked case covered within 7 days?,router-p1
+C018,phone,claim_photos/claim_08.png,invoices/invoice_02.pdf,voice_notes/voice_06.wav,,7080.0,2,cracked_case,medium,review,human,Is a cracked case covered within 7 days?,phone-p1
+C019,monitor,claim_photos/claim_09.png,invoices/invoice_03.pdf,voice_notes/voice_01.wav,,4720.0,2,broken_screen,high,review,human,Is a cracked case covered within 7 days?,monitor-p1
+C020,router,claim_photos/claim_10.png,invoices/invoice_04.pdf,voice_notes/voice_02.wav,,2360.0,2,unknown,unknown,review,human,Is a cracked case covered within 7 days?,router-p1

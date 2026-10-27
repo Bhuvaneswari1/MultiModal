@@ -1,0 +1,75 @@
+{
+  "mode": "demo",
+  "result": [
+    {
+      "product": "router",
+      "damage_type": "cracked_case",
+      "severity": "medium",
+      "visible_serial": "SN-0001",
+      "confidence": 0.95
+    },
+    {
+      "product": "phone",
+      "damage_type": "broken_screen",
+      "severity": "high",
+      "visible_serial": "SN-0002",
+      "confidence": 0.95
+    },
+    {
+      "product": "monitor",
+      "damage_type": "broken_screen",
+      "severity": "high",
+      "visible_serial": "SN-0003",
+      "confidence": 0.95
+    },
+    {
+      "product": "router",
+      "damage_type": "dented_box",
+      "severity": "low",
+      "visible_serial": "SN-0004",
+      "confidence": 0.95
+    },
+    {
+      "product": "router",
+      "damage_type": "none",
+      "severity": "low",
+      "visible_serial": "SN-0005",
+      "confidence": 0.95
+    },
+    {
+      "product": "phone",
+      "damage_type": "none",
+      "severity": "low",
+      "visible_serial": "SN-0006",
+      "confidence": 0.95
+    },
+    {
+      "product": "monitor",
+      "damage_type": "dented_box",
+      "severity": "low",
+      "visible_serial": "SN-0007",
+      "confidence": 0.95
+    },
+    {
+      "product": "router",
+      "damage_type": "cracked_case",
+      "severity": "medium",
+      "visible_serial": null,
+      "confidence": 0.95
+    },
+    {
+      "product": "phone",
+      "damage_type": "broken_screen",
+      "severity": "high",
+      "visible_serial": "SN-0009",
+      "confidence": 0.95
+    },
+    {
+      "product": null,
+      "damage_type": "unknown",
+      "severity": "unknown",
+      "visible_serial": null,
+      "confidence": 0.2
+    }
+  ]
+}

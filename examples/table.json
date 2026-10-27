@@ -1,0 +1,14 @@
+{
+  "mode": "demo",
+  "result": {
+    "prediction": {
+      "days": 7,
+      "evidence_required": "photo and invoice"
+    },
+    "expected": {
+      "days": 7,
+      "evidence_required": "photo and invoice"
+    },
+    "days_correct": true
+  }
+}

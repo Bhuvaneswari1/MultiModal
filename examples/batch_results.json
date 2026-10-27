@@ -1,0 +1,198 @@
+{
+  "mode": "demo",
+  "results": [
+    {
+      "claim_id": "C001",
+      "thread_id": "ecef46c7-86fe-4832-a340-a56f5372886d",
+      "pending_review": false,
+      "proposed_decision": "approve",
+      "route": "automatic",
+      "flags": []
+    },
+    {
+      "claim_id": "C002",
+      "thread_id": "8f470ce0-e0de-40b3-aba5-66e8dcb5bad1",
+      "pending_review": true,
+      "proposed_decision": "approve",
+      "route": "human",
+      "flags": []
+    },
+    {
+      "claim_id": "C003",
+      "thread_id": "fc2aa45f-b1c1-4df0-94aa-ff2e62d07b81",
+      "pending_review": false,
+      "proposed_decision": "approve",
+      "route": "automatic",
+      "flags": []
+    },
+    {
+      "claim_id": "C004",
+      "thread_id": "5d1ae32a-d116-472e-b0c1-3d8a7de00e9d",
+      "pending_review": false,
+      "proposed_decision": "reject",
+      "route": "automatic",
+      "flags": []
+    },
+    {
+      "claim_id": "C005",
+      "thread_id": "30563ecb-1f33-403a-b048-f6e04fe62744",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "thread_id": "3acf1208-4205-4ce8-9b74-df9429cee2df",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "thread_id": "358bda14-cf15-4398-8d96-9fa067f8c696",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C008",
+      "thread_id": "0ed07299-3e1b-4337-8766-1375f37f83e2",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "invoice_total_mismatch",
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C009",
+      "thread_id": "3b2ca05b-e3cd-4ae9-9a84-3afe0db3c940",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "thread_id": "6b6b4c8c-1517-4b12-8548-36eb5c954899",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "uncertain_photo",
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C011",
+      "thread_id": "ab8939e6-f378-41f7-b979-c3edac3d130e",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C012",
+      "thread_id": "5088ac9b-9d2d-4171-b426-fe9b33089030",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C013",
+      "thread_id": "fa491fc6-94e3-4e8f-aafe-111905c0e047",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C014",
+      "thread_id": "938cfeec-280e-4843-8bd0-eee6b458993c",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C015",
+      "thread_id": "1cfab907-2c84-438e-a83d-8d3c278e21a8",
+      "pending_review": false,
+      "proposed_decision": "reject",
+      "route": "automatic",
+      "flags": []
+    },
+    {
+      "claim_id": "C016",
+      "thread_id": "14f0bf37-6829-451a-935d-2097af23334d",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "invoice_total_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C017",
+      "thread_id": "e13b8567-0f67-4463-81e0-cfa5d1f4cd19",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C018",
+      "thread_id": "42998ec1-8dcf-49b1-ab95-a20eee571d82",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C019",
+      "thread_id": "f5d897c5-d4cd-4d9f-beec-db3de0b67071",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "product_mismatch"
+      ]
+    },
+    {
+      "claim_id": "C020",
+      "thread_id": "4ee74b2f-bf51-4e4f-bc56-73ad6749d068",
+      "pending_review": true,
+      "proposed_decision": "review",
+      "route": "human",
+      "flags": [
+        "uncertain_photo",
+        "product_mismatch"
+      ]
+    }
+  ]
+}

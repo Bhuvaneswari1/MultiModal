@@ -1,0 +1,11 @@
+path,product,damage_type,severity,visible_serial,confidence
+claim_photos/claim_01.png,router,cracked_case,medium,SN-0001,0.95
+claim_photos/claim_02.png,phone,broken_screen,high,SN-0002,0.95
+claim_photos/claim_03.png,monitor,broken_screen,high,SN-0003,0.95
+claim_photos/claim_04.png,router,dented_box,low,SN-0004,0.95
+claim_photos/claim_05.png,router,none,low,SN-0005,0.95
+claim_photos/claim_06.png,phone,none,low,SN-0006,0.95
+claim_photos/claim_07.png,monitor,dented_box,low,SN-0007,0.95
+claim_photos/claim_08.png,router,cracked_case,medium,,0.95
+claim_photos/claim_09.png,phone,broken_screen,high,SN-0009,0.95
+claim_photos/claim_10.png,,unknown,unknown,,0.2

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "router-p1",
+    "product": "router",
+    "file": "manuals/router_manual.pdf",
+    "page": 1,
+    "figure": "Figure 1",
+    "text": "router warranty: cracked case and broken screen on delivery are covered within 7 days. Photo and invoice required. Dented box alone is not covered. Normal wear and misuse are excluded."
+  },
+  {
+    "id": "router-p2",
+    "product": "router",
+    "file": "manuals/router_manual.pdf",
+    "page": 2,
+    "figure": "Figure 2",
+    "text": "router return packing: power off, protect device, cushion in box and seal. Do not ship damaged batteries; contact support."
+  },
+  {
+    "id": "phone-p1",
+    "product": "phone",
+    "file": "manuals/phone_manual.pdf",
+    "page": 1,
+    "figure": "Figure 1",
+    "text": "phone warranty: cracked case and broken screen on delivery are covered within 7 days. Photo and invoice required. Dented box alone is not covered. Normal wear and misuse are excluded."
+  },
+  {
+    "id": "phone-p2",
+    "product": "phone",
+    "file": "manuals/phone_manual.pdf",
+    "page": 2,
+    "figure": "Figure 2",
+    "text": "phone return packing: power off, protect device, cushion in box and seal. Do not ship damaged batteries; contact support."
+  },
+  {
+    "id": "monitor-p1",
+    "product": "monitor",
+    "file": "manuals/monitor_manual.pdf",
+    "page": 1,
+    "figure": "Figure 1",
+    "text": "monitor warranty: cracked case and broken screen on delivery are covered within 7 days. Photo and invoice required. Dented box alone is not covered. Normal wear and misuse are excluded."
+  },
+  {
+    "id": "monitor-p2",
+    "product": "monitor",
+    "file": "manuals/monitor_manual.pdf",
+    "page": 2,
+    "figure": "Figure 2",
+    "text": "monitor return packing: power off, protect device, cushion in box and seal. Do not ship damaged batteries; contact support."
+  }
+]

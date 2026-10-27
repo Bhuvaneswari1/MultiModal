@@ -1,0 +1,7 @@
+path,language,transcript,order_id,sentiment
+voice_notes/voice_01.wav,en,My router arrived with a cracked case. Order ORD-1001. Please help.,ORD-1001,negative
+voice_notes/voice_02.wav,en,The phone screen is broken. My order is ORD-1002. I need a replacement.,ORD-1002,negative
+voice_notes/voice_03.wav,te,నా రౌటర్ పగిలి వచ్చింది. ఆర్డర్ ORD-1003. దయచేసి సహాయం చేయండి.,ORD-1003,negative
+voice_notes/voice_04.wav,te,పెట్టె దెబ్బతింది. ఆర్డర్ ORD-1004. దయచేసి సహాయం చేయండి.,ORD-1004,negative
+voice_notes/voice_05.wav,hi,मेरा फोन टूटा हुआ आया है। ऑर्डर ORD-1005. कृपया मदद करें।,ORD-1005,negative
+voice_notes/voice_06.wav,hi,मेरे मॉनिटर की स्क्रीन टूटी है। ऑर्डर ORD-1006. मुझे मदद चाहिए।,ORD-1006,negative

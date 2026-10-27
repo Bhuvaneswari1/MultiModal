@@ -1,0 +1,26 @@
+{
+  "mode": "demo",
+  "result": {
+    "timeline": [
+      {
+        "second": 0,
+        "observation": "Sealed package"
+      },
+      {
+        "second": 5,
+        "observation": "Product crack visible in synthetic animation"
+      },
+      {
+        "second": 10,
+        "observation": "Product crack visible in synthetic animation"
+      }
+    ],
+    "transcript": "My router arrived with a cracked case. Order ORD-1001. Please help.",
+    "summary": {
+      "complaint": "My router arrived with a cracked case. Order ORD-1001. Please help.",
+      "order_id": "ORD-1001",
+      "sentiment": "negative"
+    },
+    "limitation": "Sampled frames can miss brief events; no causal proof of shipping damage."
+  }
+}

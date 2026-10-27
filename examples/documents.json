@@ -1,0 +1,133 @@
+{
+  "mode": "demo",
+  "result": [
+    {
+      "invoice": {
+        "invoice_no": "INV-001",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "router",
+            "quantity": 1,
+            "unit_price": 2000.0
+          }
+        ],
+        "gst": 360.0,
+        "total": 2360.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-002",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "phone",
+            "quantity": 1,
+            "unit_price": 6000.0
+          }
+        ],
+        "gst": 1080.0,
+        "total": 7080.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-003",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "monitor",
+            "quantity": 1,
+            "unit_price": 4000.0
+          }
+        ],
+        "gst": 720.0,
+        "total": 4720.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-004",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "router",
+            "quantity": 1,
+            "unit_price": 2000.0
+          }
+        ],
+        "gst": 360.0,
+        "total": 2360.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-005",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "phone",
+            "quantity": 1,
+            "unit_price": 6000.0
+          }
+        ],
+        "gst": 1080.0,
+        "total": 7080.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-006",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "monitor",
+            "quantity": 1,
+            "unit_price": 4000.0
+          }
+        ],
+        "gst": 720.0,
+        "total": 4720.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-007",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "router",
+            "quantity": 1,
+            "unit_price": 2000.0
+          }
+        ],
+        "gst": 360.0,
+        "total": 2360.0
+      },
+      "totals_valid": true
+    },
+    {
+      "invoice": {
+        "invoice_no": "INV-008",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "description": "phone",
+            "quantity": 1,
+            "unit_price": 6000.0
+          }
+        ],
+        "gst": 1080.0,
+        "total": 7180.0
+      },
+      "totals_valid": false
+    }
+  ]
+}

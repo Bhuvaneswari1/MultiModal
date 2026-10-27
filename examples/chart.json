@@ -1,0 +1,14 @@
+{
+  "mode": "demo",
+  "result": {
+    "prediction": {
+      "month": "Apr",
+      "returns": 30
+    },
+    "expected": {
+      "month": "Apr",
+      "returns": "30"
+    },
+    "correct": true
+  }
+}
